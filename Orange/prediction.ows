@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="File" position="(489.0, 383.0)" />
+		<node id="1" name="Predictions" qualified_name="Orange.widgets.evaluate.owpredictions.OWPredictions" project_name="Orange3" version="" title="Predictions" position="(822.0, 417.0)" />
+		<node id="2" name="Load Model" qualified_name="Orange.widgets.model.owloadmodel.OWLoadModel" project_name="Orange3" version="" title="Load Model" position="(461.0, 582.0)" />
+		<node id="3" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Save Data" position="(986.0, 414.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="1" source_node_id="2" sink_node_id="1" source_channel="Model" sink_channel="Predictors" enabled="true" />
+		<link id="2" source_node_id="1" sink_node_id="3" source_channel="Predictions" sink_channel="Data" enabled="true" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASV/wgAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZQojB5v
+cmFuZ2V3aWRnZXQudXRpbHMuZmlsZWRpYWxvZ3OUjApSZWNlbnRQYXRolJOUKYGUfZQojAdhYnNw
+YXRolIwrRDovb3JhbmdlIHByb2plY3Qvd2F0ZXIgZm9yIHByZWRpY3Rpb24ueGxzeJSMBnByZWZp
+eJSMB2Jhc2VkaXKUjAdyZWxwYXRolIwZd2F0ZXIgZm9yIHByZWRpY3Rpb24ueGxzeJSMBXRpdGxl
+lIwAlIwFc2hlZXSUaBCMC2ZpbGVfZm9ybWF0lE51YmgGKYGUfZQoaAmMJkQ6L29yYW5nZSBwcm9q
+ZWN0L3dhdGVyX3BvdGFiaWxpdHkuY3N2lGgLaAxoDYwUd2F0ZXJfcG90YWJpbGl0eS5jc3aUaA9o
+EGgRaBBoEk51YmgGKYGUfZQoaAmMGUQ6L01JVS9EUiBhYmVlci9oZWFydC5jc3aUaAtOaA1OaA9o
+EGgRaBBoEk51YmgGKYGUfZQoaAmMMkQ6L01JVS9EUiBhYmVlci9oZWFsdGhjYXJlLWRhdGFzZXQt
+c3Ryb2tlLWRhdGEuY3N2lGgLTmgNTmgPaBBoEWgQaBJOdWJoBimBlH2UKGgJjA9EOi9uZXcgc3dl
+dC5jc3aUaAtOaA1OaA9oEGgRaBBoEk51YmgGKYGUfZQoaAmMNEQ6L09yYW5nZS9MaWIvc2l0ZS1w
+YWNrYWdlcy9PcmFuZ2UvZGF0YXNldHMvaXJpcy50YWKUaAuMD3NhbXBsZS1kYXRhc2V0c5RoDYwI
+aXJpcy50YWKUaA9oEGgRaBBoEk51YmgGKYGUfZQoaAmMN0Q6L09yYW5nZS9MaWIvc2l0ZS1wYWNr
+YWdlcy9PcmFuZ2UvZGF0YXNldHMvdGl0YW5pYy50YWKUaAtoI2gNjAt0aXRhbmljLnRhYpRoD2gQ
+aBFoEGgSTnViaAYpgZR9lChoCYw3RDovT3JhbmdlL0xpYi9zaXRlLXBhY2thZ2VzL09yYW5nZS9k
+YXRhc2V0cy9ob3VzaW5nLnRhYpRoC2gjaA2MC2hvdXNpbmcudGFilGgPaBBoEWgQaBJOdWJoBimB
+lH2UKGgJjD1EOi9PcmFuZ2UvTGliL3NpdGUtcGFja2FnZXMvT3JhbmdlL2RhdGFzZXRzL2hlYXJ0
+X2Rpc2Vhc2UudGFilGgLaCNoDYwRaGVhcnRfZGlzZWFzZS50YWKUaA9oEGgRaBBoEk51YmgGKYGU
+fZQoaAmMPkQ6L09yYW5nZS9MaWIvc2l0ZS1wYWNrYWdlcy9PcmFuZ2UvZGF0YXNldHMvYnJvd24t
+c2VsZWN0ZWQudGFilGgLaCNoDYwSYnJvd24tc2VsZWN0ZWQudGFilGgPaBBoEWgQaBJOdWJoBimB
+lH2UKGgJjDNEOi9PcmFuZ2UvTGliL3NpdGUtcGFja2FnZXMvT3JhbmdlL2RhdGFzZXRzL3pvby50
+YWKUaAtoI2gNjAd6b28udGFilGgPaBBoEWgQaBJOdWJljAtyZWNlbnRfdXJsc5RdlIwTc2F2ZWRX
+aWRnZXRHZW9tZXRyeZRDQgHZ0MsAAwAAAAAEqgAAATYAAAcDAAADiAAABKsAAAFcAAAHAgAAA4cA
+AAAAAAAAAAeAAAAEqwAAAVwAAAcCAAADh5SMC3NoZWV0X25hbWVzlH2UjAZzb3VyY2WUSwCMA3Vy
+bJRoEIwNZG9tYWluX2VkaXRvcpR9lIwLX192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OU
+XZQojBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1ZXOUfZQo
+jAl2YXJpYWJsZXOUXZRoQX2UaE1dlChdlCiMAnBolIwUT3JhbmdlLmRhdGEudmFyaWFibGWUjBJD
+b250aW51b3VzVmFyaWFibGWUk5RLAGgQiGVdlCiMCEhhcmRuZXNzlGhVSwBoEIhlXZQojAZTb2xp
+ZHOUaFVLAGgQiGVdlCiMC0NobG9yYW1pbmVzlGhVSwBoEIhlXZQojAdTdWxmYXRllGhVSwBoEIhl
+XZQojAxDb25kdWN0aXZpdHmUaFVLAGgQiGVdlCiMDk9yZ2FuaWNfY2FyYm9ulGhVSwBoEIhlXZQo
+jA9UcmloYWxvbWV0aGFuZXOUaFVLAGgQiGVdlCiMCVR1cmJpZGl0eZRoVUsAaBCIZWVzaENLAXWM
+CmF0dHJpYnV0ZXOUKGhSSwKGlGhXSwKGlGhZSwKGlGhbSwKGlGhdSwKGlGhfSwKGlGhhSwKGlGhj
+SwKGlGhlSwKGlHSUjAVtZXRhc5QpjApjbGFzc192YXJzlCmMEm1vZGlmaWVkX3ZhcmlhYmxlc5Rd
+lHViaEgpgZR9lChoS32UKGhNXZRoQX2UaE1dlChdlCiMAnBolGhVSwBoEIhlXZQojAhIYXJkbmVz
+c5RoVUsAaBCIZV2UKIwGU29saWRzlGhVSwBoEIhlXZQojAtDaGxvcmFtaW5lc5RoVUsAaBCIZV2U
+KIwHU3VsZmF0ZZRoVUsAaBCIZV2UKIwMQ29uZHVjdGl2aXR5lGhVSwBoEIhlXZQojA5Pcmdhbmlj
+X2NhcmJvbpRoVUsAaBCIZV2UKIwPVHJpaGFsb21ldGhhbmVzlGhVSwBoEIhlXZQojAlUdXJiaWRp
+dHmUaFVLAGgQiGVdlCiMClBvdGFiaWxpdHmUaFOMEERpc2NyZXRlVmFyaWFibGWUk5RLAYwEMCwg
+MZSIZWVzaENLAXVoZiiMAnBolEsChpSMCEhhcmRuZXNzlEsChpSMBlNvbGlkc5RLAoaUjAtDaGxv
+cmFtaW5lc5RLAoaUjAdTdWxmYXRllEsChpSMDENvbmR1Y3Rpdml0eZRLAoaUjA5PcmdhbmljX2Nh
+cmJvbpRLAoaUjA9UcmloYWxvbWV0aGFuZXOUSwKGlIwJVHVyYmlkaXR5lEsChpSMClBvdGFiaWxp
+dHmUXZQojAEwlIwBMZRlhpR0lGhxKWhyKWhzXZR1YmV1Lg==
+</properties>
+		<properties node_id="1" format="pickle">gASVCgEAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5
+lENCAdnQywADAAAAAAN3AAABYgAABk8AAANVAAADdwAAAWIAAAZPAAADVQAAAAAAAAAAB4AAAAN3
+AAABYgAABk8AAANVlIwJc2VsZWN0aW9ulF2UjAtzY29yZV90YWJsZZR9lIwMc2hvd25fc2NvcmVz
+lI+UKIwEUk1TRZSMA01TRZSMA0FVQ5SMBlJlY2FsbJSMAkYxlIwJUHJlY2lzaW9ulIwCQ0GUjANN
+QUWUjAJSMpSQc4wLX192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZR1Lg==
+</properties>
+		<properties node_id="2" format="pickle">gASVWAIAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZQojB5v
+cmFuZ2V3aWRnZXQudXRpbHMuZmlsZWRpYWxvZ3OUjApSZWNlbnRQYXRolJOUKYGUfZQojAdhYnNw
+YXRolIwjRDovb3JhbmdlIHByb2plY3Qvc2F2ZWQgbW9kZWwucGtjbHOUjAZwcmVmaXiUjAdiYXNl
+ZGlylIwHcmVscGF0aJSMEXNhdmVkIG1vZGVsLnBrY2xzlIwFdGl0bGWUjACUjAVzaGVldJRoEIwL
+ZmlsZV9mb3JtYXSUTnViaAYpgZR9lChoCYwjRDovb3JhbmdlIHByb2plY3QvZmluYWwgbW9kZWwu
+cGtjbHOUaAtOaA1OaA9oEGgRaBBoEk51YmgGKYGUfZQoaAmMIUQ6L01JVS9EUiBhYmVlci9maW5h
+bCBtb2RlbC5wa2Nsc5RoC05oDU5oD2gQaBFoEGgSTnViaAYpgZR9lChoCYwZRDovaGVhcnQgbW9k
+ZWwgbGFzdC5wa2Nsc5RoC05oDU5oD2gQaBFoEGgSTnViaAYpgZR9lChoCYwlRDovaGVhcnQgbW9k
+ZWxsIGxhc3Nzc3R0dHR0dHR0dC5wa2Nsc5RoC05oDU5oD2gQaBFoEGgSTnViZYwTc2F2ZWRXaWRn
+ZXRHZW9tZXRyeZRDQgHZ0MsAAwAAAAACugAAAagAAATFAAACMAAAArsAAAHOAAAExAAAAi8AAAAA
+AAAAAAeAAAACuwAAAc4AAATEAAACL5SMC19fdmVyc2lvbl9flEsBdS4=
+</properties>
+		<properties node_id="3" format="literal">{'add_type_annotations': True, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Microsoft Excel spreadsheet (*.xlsx)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03T\x00\x00\x01\xa8\x00\x00\x04\xb7\x00\x00\x02_\x00\x00\x03U\x00\x00\x01\xce\x00\x00\x04\xb6\x00\x00\x02^\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03U\x00\x00\x01\xce\x00\x00\x04\xb6\x00\x00\x02^', 'stored_name': 'water for after prediction.xlsx', 'stored_path': 'D:/orange project', '__version__': 2}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
